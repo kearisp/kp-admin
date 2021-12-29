@@ -1,0 +1,61 @@
+{
+    "name": "kp-admin",
+    "version": "0.0.0",
+    "description": "Admin Dashboard",
+    "author": "Kris Papercut <krispcut@gmail.com>",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "keywords": [
+        "kp",
+        "kpdux",
+        "admin",
+        "dashboard"
+    ],
+    "scripts": {
+        "start": "npm run watch",
+        "watch": "tsc --watch",
+        "build": "tsc --build",
+        "test": "echo 'error'"
+    },
+    "dependencies": {},
+    "peerDependencies": {
+        "kpdux": "2.x.x",
+        "react": "x.x.x",
+        "react-router-dom": "x.x.x",
+        "react-hook-form": "^7.x.x"
+    },
+    "peerDependenciesMeta": {},
+    "devDependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/core": "^7.15.0",
+        "@babel/plugin-transform-typescript": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "@babel/preset-react": "^7.14.5",
+        "@babel/preset-typescript": "^7.15.0",
+        "@types/react": "^17.0.17",
+        "@types/react-dom": "^17.0.9",
+        "@types/react-redux": "^7.1.18",
+        "@types/react-router-dom": "^5.1.8",
+        "@typescript-eslint/parser": "^4.29.1",
+        "eslint": "^7.32.0",
+        "sass": "^1.37.5",
+        "typescript": "^4.3.5"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./tsconfig.json"
+        ]
+    }
+}
