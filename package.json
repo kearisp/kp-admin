@@ -1,0 +1,44 @@
+{
+    "name": "@kearisp/react-admin",
+    "version": "1.0.0",
+    "description": "Admin Dashboard",
+    "author": "Kris Papercut <krispcut@gmail.com>",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "keywords": [
+        "kp",
+        "admin",
+        "dashboard"
+    ],
+    "scripts": {
+        "start": "npm run watch",
+        "watch": "tsc --watch",
+        "build": "tsc --build",
+        "test": "echo 'error'"
+    },
+    "peerDependencies": {
+        "react": "x.x.x",
+        "react-hook-form": "^7.x.x",
+        "react-router-dom": "x.x.x"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./tsconfig.json"
+        ]
+    }
+}
